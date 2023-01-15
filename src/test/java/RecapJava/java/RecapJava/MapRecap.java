@@ -1,4 +1,4 @@
-package RecapJava;
+package RecapJava.java.RecapJava;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -34,8 +34,8 @@ public class MapRecap {
 
 
      */
-    public synchronized void main(String[] args) {
-        Map<String,String> asdasd=new HashMap<>();
+
+
 
         /*
         HOMEWORK:
@@ -47,7 +47,38 @@ public class MapRecap {
            TIPS:you can use if condition
 
          */
+        public static void main(String[] args) {
+            Map<String,Integer> counts=new HashMap<>();
+            String[] fruits = {"Apple","Banana","Peach","Orange","Apple","Strawberry","Banana","Apple","Cherry","Orange"};
+
+            for(String fruit:fruits){
+                if(!counts. containsKey(fruit)){
+                    counts.put(fruit,1);
+                }else{
+                    counts.put(fruit,counts.get(fruit)+1);
+                }
+            }
+            System.out.println(counts);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 
-
-}

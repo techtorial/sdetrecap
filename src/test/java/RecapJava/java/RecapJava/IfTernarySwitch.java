@@ -1,4 +1,4 @@
-package RecapJava;
+package RecapJava.java.RecapJava;
 
 public class IfTernarySwitch {
 

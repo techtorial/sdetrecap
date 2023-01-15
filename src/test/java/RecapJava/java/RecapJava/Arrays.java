@@ -1,6 +1,4 @@
-package RecapJava;
-
-import java.util.List;
+package RecapJava.java.RecapJava;
 
 public class Arrays {
     /*

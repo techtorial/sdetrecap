@@ -1,4 +1,4 @@
-package RecapJava;
+package RecapJava.java.RecapJava;
 
 import java.util.ArrayList;
 import java.util.List;
